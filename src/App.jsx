@@ -4,6 +4,8 @@ import Layout from './components/Layout'
 import Banner from './components/banner'
 import BestWork from './components/BestWork'
 import AboutMe from './components/AboutMe'
+import MySkills from './components/Myskills'
+
 
 
 
@@ -18,6 +20,7 @@ function App() {
         <Banner/>
       <BestWork/>
       <AboutMe/>
+      <MySkills/>
       </Layout>
     </>
   )
