@@ -5,6 +5,8 @@ import Banner from './components/banner'
 import BestWork from './components/BestWork'
 import AboutMe from './components/AboutMe'
 import MySkills from './components/Myskills'
+import Testimonial from './components/Testimonial'
+
 
 
 
@@ -21,6 +23,7 @@ function App() {
       <BestWork/>
       <AboutMe/>
       <MySkills/>
+    <Testimonial/>
       </Layout>
     </>
   )

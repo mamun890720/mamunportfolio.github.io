@@ -13,7 +13,7 @@ const header = () => {
             <li>
               <a
                 className="hover:text-[#C20948] relative before:contents'' before:absolute before:bottom-[-6px] before:left-0 before:w-0 before:h-1 before:rounded-full before:bg-[#C20948] hover:before:w-full"
-                href="/home"
+                href="#home"
               >
                 Home
               </a>
@@ -21,7 +21,7 @@ const header = () => {
             <li>
               <a
                 className="hover:text-[#C20948] relative before:contents'' before:absolute before:bottom-[-6px] before:left-0 before:w-0 before:h-1 before:rounded-full before:bg-[#C20948] hover:before:w-full"
-                href="/myWork"
+                href="#bestWork"
               >
                 My Work
               </a>
@@ -29,7 +29,7 @@ const header = () => {
             <li>
               <a
                 className="hover:text-[#C20948] relative before:contents'' before:absolute before:bottom-[-6px] before:left-0 before:w-0 before:h-1 before:rounded-full before:bg-[#C20948] hover:before:w-full"
-                href="/aboutMe"
+                href="#aboutMe"
               >
                 About Me
               </a>

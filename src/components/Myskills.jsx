@@ -4,9 +4,9 @@ import { FaCss3Alt } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 
 const Myskills = () => {
-
   return (
     <>
+    <div id="mySkill"> </div>
       <div className="bestWorkTitle mt-10 flex items-center justify-between">
         <div className=" Line w-[40%] h-1 rounded-full bg-gradient-to-t from-[#004951] to-[#0092A2]"></div>
         <div>
@@ -22,9 +22,7 @@ const Myskills = () => {
           <div className="outer">
             <div className="inner">
               <FaHtml5 className="w-8 h-8 text-orange-600" />
-              <h2
-                className="number text-3xl font-bold text-orange-600"
-              >82</h2>
+              <h2 className="number text-3xl font-bold text-orange-600">82</h2>
             </div>
           </div>
           <div>
@@ -55,9 +53,7 @@ const Myskills = () => {
           <div className="outer">
             <div className="inner">
               <FaCss3Alt className="w-8 h-8 text-[#24a7ff]" />
-              <h2
-                className=" number text-3xl font-bold text-[#24a7ff]"
-              >75</h2>
+              <h2 className=" number text-3xl font-bold text-[#24a7ff]">75</h2>
             </div>
           </div>
           <div>
@@ -84,13 +80,11 @@ const Myskills = () => {
             </svg>
           </div>
         </div>
-        <div className="css">
+        <div className="js">
           <div className="outer">
             <div className="inner">
-              <SiJavascript className="w-8 h-8 text-[#2e77ff]" />
-              <h2
-                className=" number text-3xl font-bold text-[#2e77ff]"
-              >75</h2>
+              <FaHtml5 className="w-8 h-8 text-orange-600" />
+              <h2 className="number text-3xl font-bold text-[#8929ff]">65%</h2>
             </div>
           </div>
           <div>

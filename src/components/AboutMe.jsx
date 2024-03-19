@@ -3,6 +3,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <>
+    <div id="aboutMe"></div>
       <div className="bestWorkTitle mt-10 flex items-center justify-between">
         <div className=" Line w-[40%] h-1 rounded-full bg-gradient-to-t from-[#004951] to-[#0092A2]"></div>
         <div>

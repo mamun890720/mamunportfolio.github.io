@@ -2,7 +2,7 @@
 a::before{
 transition: all 0.5S ease-in-out;
 }
-.html, .css{
+.html, .css, .js{
     width: 160px;
     height: 160px;
     position: relative;
@@ -24,13 +24,13 @@ transition: all 0.5S ease-in-out;
     box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15), inset -4px -4px 10px -1px rgba(29, 29, 29, 0.199);
     border-radius: 50%;
 }
-.htmls, .CSS{
+.htmls, .CSS, .JS{
     fill: none;
     stroke: url(#GradientColor);
     stroke-width: 20px;
     stroke-dasharray: 450;
     stroke-dashoffset: 450;
-    animation: html 0.4s linear forwards, css;
+    animation: html 0.4s linear forwards;
 }
 @keyframes html {
     100%{
@@ -47,5 +47,10 @@ transition: all 0.5S ease-in-out;
     }
 }
 .JS{
-    animation: css 0.4s linear forwards;
+    animation: js 0.4s linear forwards;
+}
+@keyframes js {
+    100%{
+        stroke-dashoffset: 157.5;
+    }
 }

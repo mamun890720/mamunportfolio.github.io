@@ -4,6 +4,7 @@ import profileImage from "../Image/Profile.jpg";
 const Banner = () => {
   return (
     <>
+    <div id="home"></div>
       <section id="banner" className="flex justify-between pl-12 items-center">
         <div className="left flex flex-col gap-5">
           <div className="flex flex-col gap-2">

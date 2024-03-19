@@ -3,9 +3,10 @@ import React from "react";
 const BestWork = () => {
   return (
     <>
-      <div className="bestWorkTitle mt-28 flex items-center justify-between">
+    <div id="bestWork"></div>
+      <div  className="bestWorkTitle mt-28 flex items-center justify-between">
         <div className=" Line w-[40%] h-1 rounded-full bg-gradient-to-t from-[#004951] to-[#0092A2]"></div>
-        <div>
+        <div >
           <h2 className="text-2xl text-[40px]  text-[#0092A2] font-bold">
             MY BEST WORKS
           </h2>
